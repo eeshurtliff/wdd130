@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+}
+h1:hover {
+    color:black;
+}
+body {
+    background-color:#fca6c9;
+}
+header {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 0 auto;
+    width:200px
+}
+
+p {
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 14pt;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    width: 520px;
+}
+#list {
+    /* border: 1px solid black; */
+    width: 375px;
+    margin: 0 auto;
+    line-height: 1.5;
+    
+}
+img {
+    width: 250px;
+}
+.center{
+    text-align: center;
+    line-height: 2;
+}
+#quote{
+    font-size: 30pt;
+    width: 350px;
+}
+.foot{
+    line-height: 1.5;
+    color: black;
+    font-size: 14pt;
+    width: 370px;
+}
