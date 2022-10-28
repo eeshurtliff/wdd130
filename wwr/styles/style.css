@@ -195,7 +195,7 @@ h2 {
     grid-row: 4/9;
 }
 #content {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 1600px;
     margin: 0 auto;
 }
