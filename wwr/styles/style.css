@@ -121,7 +121,7 @@ h2 {
     width: 100%
 }
 
- 
+
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -167,6 +167,7 @@ h2 {
 }
 .logo {
     height:80px;
+    margin-top: 15px;
     
 }
 .icon {
@@ -184,6 +185,65 @@ h2 {
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
+}
+
+.rivers-title {
+    color:#FFBC42;
+    font-family: 'Caveat', 'Brush Script MT', cursive;
+    font-size: 5em;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color:#0cc0d4;
+    border: 5px solid #001F54;
+}
+
+
+.salmon-card, .desolation-card, .grand-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.description h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
+
+}
+
+.salmon-card .description p { 
+    grid-row: 1/2;
+}
+
+.salmon-card img, .grand-card img {
+    width: 100%;
+    grid-column: 1/2;
+    border-radius: 25px;
+    border:5px solid #0cc0d4;
+    
+}
+
+.desolation-card img {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 25px;
+    border:5px solid #0cc0d4;
+   
+}
+
+.description {
+    grid-column: 2/3;
+    margin-left: 40px;
+    margin-right:10px;
+}
+
+.desolation-card .description {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 10px;
+    margin-right: 40px;
+
 }
 
 
@@ -222,12 +282,11 @@ h2 {
     margin: 100px;
 }
 
+
 #hero-msg h1, #hero-msg h4 {
     text-align:center;
     
 }
-
-
 
 #logo_link {
     padding-top:5px;
@@ -235,6 +294,8 @@ h2 {
     align-self: center;
     
 }
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
