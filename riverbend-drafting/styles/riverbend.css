@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap');
+/* html attributes */
+
+footer {
+    align-items: center;
+    background-color:#444B6E;
+    display:flex;
+    height: 100px;
+    justify-content: space-around;
+    margin-bottom: 0%;
+    font-family: lato, Helvetica, sans-serif;
+    
+}
+
+footer p {
+    font-size: 20px;
+    color:#DAD6FF;
+}
+
+footer a {
+    font-size: 20px;
+    color:#DAD6FF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#2B9EB5;
+}
+
+header {
+    background-color: #444B6E;
+    display: grid;
+    margin-top: auto;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #DAD6FF;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Rock Salt', cursive;
+
+    
+}
+
+nav a:hover {
+    /* background-color: #2B9EB5; */
+    color: #2B9EB5;
+}
+
+
+/* classes */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about img {
+    width: 100%;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.contact {
+    background-color:#2B9EB5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    margin: 50px auto;
+    padding:20px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin:auto;
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    background-color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.icons h1 {
+    grid-column: 1/8;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+}
+
+.new-home-icon {
+    grid-column: 2/3;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+}
+
+.new-home-icon img {
+    width: 100%;
+    border: 5px solid black;
+    /* box-shadow: 5px 5px 10px lightgray; */
+    transition: transform .5s;
+    
+}
+
+.new-home-icon img:hover {
+    box-shadow: 5px 5px 10px lightgray;
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.personalized {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.personalized img {
+    width: 100%;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+}
+
+.remodel-icon {
+    grid-column: 4/5;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+}
+
+.remodel-icon img {
+    width: 100%;
+    border: 5px solid black;
+    transition: transform .5s;
+}
+
+.remodel-icon img:hover {
+    box-shadow: 5px 5px 10px lightgray;
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.renderings-icon {
+    grid-column: 6/7;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+}
+
+.renderings-icon img {
+    width: 100%;
+    border: 5px solid black;
+    transition: transform .5s;
+}
+
+.renderings-icon img:hover {
+    box-shadow: 5px 5px 10px lightgray;
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.top-img {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-bottom: 50px;
+
+
+}
+.top-img img {
+    width: 100%;
+    grid-column:1/4;
+    grid-row: 1/4;
+}
+
+.top-img h1 {
+    color: #444B6E;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+/* id */
+
+#about-text {
+    grid-column: 2/3;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#about-text h3 {
+    color: #2B9EB5;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
+#contact-box {
+    text-align: center;
+    background-color:lightgray;
+    border-radius: 25px;
+    margin: auto;
+    /* margin-right: 10px; */
+    padding: 50px;
+    font-family: lato, Helvetica, sans-serif;
+
+}
+
+#contact-box h4 {
+    padding-bottom: 5px;
+    font-family: 'Rock Salt', cursive;
+    text-decoration: underline;
+}
+
+#contact-box a {
+    text-decoration: none;
+}
+
+#contact-box a:hover {
+    color:#444B6E;
+}
+
+#content {
+    /* border: 1px solid black; */
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+#logo {
+    width: 100%;
+    
+}
+
+#personalized-text {
+    grid-column: 2/3;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#personalized-text h3 {
+    color: #2B9EB5;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+
+}
