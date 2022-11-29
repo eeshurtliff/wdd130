@@ -212,6 +212,7 @@ nav a:hover {
     margin-right: 10px;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 20px;
+    line-height: 1.5em;
 }
 
 #about-text h3 {
@@ -263,6 +264,8 @@ nav a:hover {
     margin-right: 10px;
     font-family: Lato, Helvetica, sans-serif;
     font-size: 20px;
+    line-height: 1.5em;
+    /* text-indent: 50px; */
 }
 
 #personalized-text h3 {
