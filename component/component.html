@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="component.css">
+    <title>Component</title>
+  </head>
+  <body>
+    <main>
+      <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+            <source src="rain.mp4" type="video/mp4" />
+        </video>
+
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+            <h1>Rain Falling</h1>
+            <p>Rain is very beautiful and smells good.
+                 It helps plants grow and give animals and people water. And some people don't mind getting a little wet. </p>
+        <!-- Use a button to pause/play the video with JavaScript -->
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+      </div>
+    </main>
+    <script src='component.js'></script>
+  </body>
+</html>
