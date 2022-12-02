@@ -61,7 +61,8 @@ nav a {
 }
 
 nav a:hover {
-    /* background-color: #2B9EB5; */
+    /* background-color: #3DC0C2; */
+    /* height: 100%; */
     color: #2B9EB5;
 }
 
@@ -148,6 +149,9 @@ nav a:hover {
     grid-row: 1/4;
     margin-left: 10px;
     margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 2em;
+    font-family: Lato, Helvetica, sans-serif;
 
 }
 
@@ -155,6 +159,11 @@ nav a:hover {
     color:#2B9EB5;
     text-align: center;
     font-family: 'Rock Salt', cursive;
+    
+}
+
+.new-home-txt ol li {
+    margin-bottom: 50px;
     
 }
 
@@ -307,6 +316,7 @@ nav a:hover {
 }
 
 #new-home-img1 {
+    border: 5px solid #2B9EB5;
     width:100%;
     
     grid-column: 4/5;
@@ -314,9 +324,10 @@ nav a:hover {
 }
 
 #new-home-img2 {
+    border: 5px solid #2B9EB5;
     width: 100%;
     grid-column: 4/5;
-    grid-row: 4/5;
+    grid-row: 3/4;
 }
 
 #personalized-text {
