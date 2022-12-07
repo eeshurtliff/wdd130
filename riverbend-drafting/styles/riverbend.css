@@ -200,6 +200,34 @@ nav a:hover {
     
 }
 
+.remodel {
+    background-color: #aeaebc;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 20px;
+
+
+}
+
+.remodel img {
+    width: 100%;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    border: 2px solid white;
+}
+
+.remodel p {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    margin: 20px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 .remodel-icon {
     grid-column: 4/5;
     text-align: center;
@@ -217,6 +245,30 @@ nav a:hover {
     box-shadow: 5px 5px 10px lightgray;
     opacity: 0.6;
     transform: scale(1.1);
+}
+
+.renderings {
+    background-color: #aeaebc;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: grid;
+    grid-column: 4/5;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 20px;
+}
+
+.renderings img {
+    width: 100%;
+    justify-self: center;
+    grid-column: 1/4;
+    border: 2px solid white;
+}
+
+.renderings p {
+    font-size: 20px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    grid-column: 1/4;
+    margin: 20px;
 }
 
 .renderings-icon {
@@ -277,6 +329,7 @@ nav a:hover {
     font-family: 'Rock Salt', cursive;
     text-align: center;
 }
+
 
 #contact-box {
     text-align: center;
@@ -345,4 +398,36 @@ nav a:hover {
     text-align: center;
     font-family: 'Rock Salt', cursive;
 
+}
+
+#remodel-content {
+    display: grid;
+    grid-template-columns: 10px 1fr 50px 1fr 10px;
+}
+
+#remodel-price, #renderings-price {
+    background-color: #444B6E;
+    border-radius: 15%;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 5/6;
+    padding: 10px 20px;
+    width: 40%;
+    color: white;
+}
+
+
+#remodel-price h3, #renderings-price h3 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    
+
+}
+
+#remodel-title, #renderings-title {
+    color:#2B9EB5;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    grid-column: 1/4;
+    grid-row: 1/2;
 }
