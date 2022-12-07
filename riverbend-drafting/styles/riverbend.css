@@ -42,6 +42,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     align-items: center;
 }
 
@@ -50,20 +51,20 @@ nav a {
     font-size: 20px;
     text-decoration: none;
     display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin: 0.83em 0px;
+    padding: 10px;
+    min-width: 120px;
     font-weight: bold;
     font-family: 'Rock Salt', cursive;
 
     
 }
 
+
 nav a:hover {
-    /* background-color: #3DC0C2; */
+    /* background-color: #2B9EB5; */
     /* height: 100%; */
-    color: #2B9EB5;
+    color: #3DC0C2;
 }
 
 
