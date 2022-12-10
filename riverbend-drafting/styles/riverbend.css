@@ -202,7 +202,7 @@ nav a:hover {
 }
 
 .remodel {
-    background-color: #aeaebc;
+    /* background-color: #aeaebc; */
     /* border: 2px solid black; */
     border-radius: 10%;
     display: grid;
@@ -249,7 +249,7 @@ nav a:hover {
 }
 
 .renderings {
-    background-color: #aeaebc;
+    /* background-color: #aeaebc; */
     /* border: 2px solid black; */
     border-radius: 10%;
     display: grid;
@@ -404,6 +404,7 @@ nav a:hover {
 #remodel-content {
     display: grid;
     grid-template-columns: 10px 1fr 50px 1fr 10px;
+    margin: 20px 50px;
 }
 
 #remodel-price, #renderings-price {
