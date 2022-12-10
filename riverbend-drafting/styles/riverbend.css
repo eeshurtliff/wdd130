@@ -270,6 +270,7 @@ nav a:hover {
     font-family: 'Lato', Helvetica, sans-serif;
     grid-column: 1/4;
     margin: 20px;
+    padding: 0px;
 }
 
 .renderings-icon {
@@ -432,4 +433,6 @@ nav a:hover {
     font-family: 'Rock Salt', cursive;
     grid-column: 1/4;
     grid-row: 1/2;
+    
 }
+
